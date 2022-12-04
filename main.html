@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/captuer.ico" type="image/x-icon">
+    <link rel="stylesheet" href="layout1.css">
+    <title>한프로 식사는 하셨고?</title>
+
+  </head>
+  <body>
+    <div id="header">
+      <div style="display:inline-flex">
+        <div>
+          <img src="logo.png" alt="로고" width="200px" height="200px" >     
+        </div>
+        <form class="Search">
+          <div class="search_box" style="margin:100px;">
+            <input type="text" id="txt1" placeholder="메뉴는 정했고?" maxlength="225" onkeydown="enterSearch()">
+            <button type="submit"  onclick="gopage()">
+              <img src="png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="80px" height="70px">
+              <script type="text/javascript"></script>
+            </button>
+          </div>
+        </form>
+        <div id="app">
+
+          <p style="font-weight:bold;">선택 장애? (앞글자만 따봤어!)</p>
+
+          <div class="roulette-outer">      
+              <div class="roulette-pin"></div>      
+              <div class="roulette" v-bind:style="rouletteStyle">
+  
+              <!-- 값 영역 -->      
+              <div class="item-wrapper">
+                  <div class="item" v-for="(item, index) in items"
+                          v-bind:style="itemStyles[index]">{{item.value}}</div>      
+              </div>
+  
+              <!-- 선 영역 -->
+              <div class="line-wrapper">
+                  <div class="line" v-for="(item, index) in items"
+                          v-bind:style="lineStyles[index]"></div>   
+              </div>
+
+          </div>
+        </div>
+          
+        <button class="play-btn" v-on:click="play">눌러봐</button>
+      
+      
+        <script src="https://unpkg.com/vue@next"></script>
+        <script>
+            Vue.createApp({
+                data(){
+                    return{
+                        items:[
+                            {value:"한"},
+                            {value:"중"},
+                            {value:"양"},
+                            {value:"일"},
+                            {value:"분"},
+                            {value:"패"},
+                            {value:"고"},
+                            {value:"디"},
+                            {value:"아"},
+                        ],
+                        itemStyles:[],
+                        lineStyles:[],
+                        current:0, //실제 가리키는 데이터 위치
+                        count:0,
+                    };
+                },
+                computed:{
+                    segment(){
+                        return 360 / this.items.length;
+                    },
+                    offset(){
+                        return this.segment / 2;
+                    },
+                    angle(){
+                        // return -this.current * this.segment; //정가운데
+                        let temp = this.current * this.segment;
+                        let randomOffset = Math.floor(Math.random() * this.segment) - this.offset - 1;
+                        let cycle = this.count * 360 * 4;
+                        return -(temp + randomOffset + cycle ); //랜덤변화
+                    },
+                    rouletteStyle(){
+                        return{
+                            "transform":"rotate("+this.angle+"deg)"
+                        };
+                    },
+                    currentItem(){
+                        return this.items[this.current];
+                    },
+                },
+                methods:{
+                    play(){
+                        this.count++;
+                        this.current = Math.floor(Math.random() * this.items.length);
+                    },
+                },
+                created(){
+                    this.items.forEach((el,idx)=>{
+                        //itemStyles 정의
+                        this.itemStyles.push({
+                            "transform":"rotate(" + (this.segment*idx) +"deg)",
+                        });
+                        //linStyles 정의 
+                        this.lineStyles.push({
+                            "transform":"rotate(" + (this.segment * idx + this.offset) +"deg)",
+                        });
+                    });
+                },
+            }).mount("#app");
+        </script>
+      </div>
+    </div>  
+    
+    <div id="contents">
+      <div class="find-bth">
+        <button type="button" class="bth1" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\koreafood.PNG" alt="한식" width="100px" height="100px">
+          <p>한식</p>  
+        </button>
+        <button type="button" class="bth1" onclick="location.href='Hansik_Page1.html'">
+          <img src="food/chinafood.PNG" alt="중식" width="100px" height="100px"> 
+          <p>중식</p>   
+        </button>
+        <button type="button" class="bth1" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\Italyfood.PNG" alt="양식" width="100px" height="100px">  
+          <p>양식</p>  
+        </button>
+      </div>
+      <div class="find-bth">
+        <button type="button" class="bth2" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\Japanfood.PNG" alt="일식" width="100px" height="100px">
+          <p>일식</p>  
+        </button>
+        <button type="button" class="bth2" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\Tteokbokki.PNG" alt="분식" width="100px" height="100px"> 
+          <p>분식</p>   
+        </button>
+        <button type="button" class="bth2" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\fastfood.PNG" alt="패스트푸드" width="100px" height="100px">  
+          <p>패스트푸드</p>  
+        </button>
+      </div>
+      <div class="find-bth">
+        <button type="button" class="bth3" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\steak.PNG" alt="고기" width="100px" height="100px">
+          <p>고기</p>  
+        </button>
+        <button type="button" class="bth3" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\desert.PNG" alt="디저트" width="100px" height="100px"> 
+          <p>디저트</p>   
+        </button>
+        <button type="button" class="bth3" onclick="location.href='Hansik_Page1.html'">
+          <img src="food\asiafood.PNG" alt="아시안" width="100px" height="100px">  
+        <p>아시안</p>  
+        </button>
+      </div>
+    </div>
+      
+    <div id="footer">
+      <p>201810125</p>
+      <p>최우성</p>
+    </div>
+
+  </body>
+</html>

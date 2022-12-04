@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/captuer.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../layout2.css">
+    <title>한식2페이지</title>
+  </head>
+  <body>
+    <div id="header">
+      <button type="button" onclick="location.href='main.html'">
+        <img src="../logo.png" alt="홈으로" width="225px" height="125px" >
+      </button>
+
+      <div class="search_box" style="text-align:center; margin:auto;"> <!--검색버튼 구현하는 거 해야함-->
+        <input type="text" placeholder="더 검색할거는 있고?" maxlength="225" onkeydown="location.href='main.html'">
+        <button type="button"  onclick="location.href='main.html'">
+          <img src="../png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="100%" height="120px">
+        </button>
+      </div>  
+
+    </div>
+    
+    <div id="contents">
+      <div class="items">
+        <div class="food">
+          <div class="boxs" type="button" onclick="location.href='HanSik_Info_1.1.html'">
+            <img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20220313_264%2F1647144747968Nkkxe_JPEG%2Fupload_e4cba8f1c321d93bbe27afdff04b0d80.jpg" alt="사진" width="225px" height="225px">
+          </div>
+            <p>[ 84양은냄비 한세점 ]</p>
+        </div>
+        <div class="food">
+          <div class="boxs" type="button" onclick="location.href='HanSik_Info_1.2.html'">        
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA0MDVfMjMy%2FMDAxNTU0NDQ1MTg4NzYw.V_e4Wv1rAnhlFA41mKL-LuUdQGYzW0A3ndDUzU4yfPwg.AOKtfC4QzUgEYi_kqj4ki2ancydE5CLdf7ZJQTDb1FMg.JPEG.3077king%2FKakaoTalk_20190404_170851197_04.jpg" alt="사진" width="225px" height="225px">
+          </div>
+            <p>[ 담소소사골순대육개장 군포당정점 ]</p>
+        </div>
+        <div class="food">
+          <div class="boxs" type="button" onclick="location.href='HanSik_Info_1.3.html'">
+            <img src="https://pup-review-phinf.pstatic.net/MjAyMjExMTFfNjgg/MDAxNjY4MTczNTk1MDkz.4YY8kGBiqMmBW1nfjPf41h50RQhx-Tt2SEhcy8B-9d8g.Hl3fR2TvUHDzVIx8jsR2CApjlOBBzdw4-gR_thSH7n8g.JPEG/20221110_192251.jpg" alt="사진" width="225px" height="225px" >
+          </div>
+            <p>[ 강원 막국수 ]</p>
+        </div>
+        <div class="food">
+          <div class="boxs" type="button" onclick="location.href='HanSik_Info_1.4.html'">
+            <img src="https://pup-review-phinf.pstatic.net/MjAyMjExMTFfNjgg/MDAxNjY4MTczNTk1MDkz.4YY8kGBiqMmBW1nfjPf41h50RQhx-Tt2SEhcy8B-9d8g.Hl3fR2TvUHDzVIx8jsR2CApjlOBBzdw4-gR_thSH7n8g.JPEG/20221110_192251.jpg" alt="사진" width="225px" height="225px" >
+          </div>
+            <p>[ 강원 막국수 ]</p>
+        </div>
+      </div>
+      <div class="items">
+        <div id="map" style="height:630px;">검색결과</div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8333a6fd8e64c77ddbcf563e1e744e03"></script>
+        <script>
+          var container = document.getElementById('map');
+          var options = {
+            center: new kakao.maps.LatLng(37.3468471, 126.9524528),
+            level: 3
+          };
+      
+          var map = new kakao.maps.Map(container, options);
+        </script>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <div class="Page">
+        <button class="page_bth" type="button" onclick="location.href='Hansik_Page1.html'">[1]</button>
+        <button class="page_bth" type="button" onclick="location.href='Hansik_Page2.html'">[2]</button>
+        <button class="page_bth" type="button" onclick="location.href='Hansik_Page3.html'">[3]</button>
+      </div>
+    </div>
+  </body>
+</html>
