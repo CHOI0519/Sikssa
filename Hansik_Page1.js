@@ -70,6 +70,10 @@ function page() {
   ]
 }
 
+function table()  {
+  location.href = "main.html";
+}
+
 function showList(val='') {
   list.innerHTML = '';
   const res = foods.forEach(food => {
@@ -78,22 +82,26 @@ function showList(val='') {
       let div = document.createElement('div');
     div.setAttribute("id","table");
     div.innerHTML = `
-    <div>
-    <img src='${food.url}' alt='${food.name}' width="200px" >
-    <p>이름: ${food.name}</p>
-
+    <div style="display:flex">
+      <div>
+        <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
+      </div>
+      <div style>
+        <div>이름: ${food.name}</div>
+        <div>
+          <a type=button style="background-color:#fff" onclick = table()>
+            정보 
+          </a>
+        </div>
+      </div>
     </div>
         `;
         list.appendChild(div);
         
-        window.onload = function () {
-          var el = document.getElementById("table");
-          el.onclick = table;
-
-        function table()  {
-          location.href = "main.html";
-        }
-      }
+      //   window.onload = function () {
+      //     var el = document.getElementById("table");
+      //     el.onclick = table;
+      // }
         
 
       // if  {}
