@@ -2,23 +2,24 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="/captuer.ico" type="image/x-icon">
-    <link rel="stylesheet" href="layout2.css">
-    <title>한식1페이지</title>
- 
+    <link rel="icon" href="../captuer.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../layout/layout2.css">
+    <title>한식페이지</title>
   </head>
   <body>
     <div id="header">
       <button type="button" onclick="location.href='main.html'">
-        <img src="logo.png" alt="홈으로" width="225px" height="125px" >
+        <img src="../logo.png" alt="홈으로" width="225px" height="125px" >
       </button>
 
       <form id="search-form" class="search_box" style="text-align:center; margin:auto;"> <!--검색버튼 구현하는 거 해야함-->
         <input id="search" type="text" placeholder="더 검색할거는 있고?" maxlength="225" >
         <button id="searchBtn">
-          <img src="png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="100%" height="120px" >
+          <img src="../png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="100%" height="120px" onclick="showlist()">
+          
         </button>
-      </form>  
+      </form>
+       
 
     </div>
     
@@ -29,8 +30,7 @@
         <div id="list">
           <!-- 자바스크립트에서 데이터 추가 -->
         </div>
-        <script type="text/javascript" src="Hansik_Page1.js"></script>
-          <!-- </div>   -->
+        <!-- </div>   -->
       </div>
       <div class="items">
         <div id="map" style="height:580px;">검색결과</div>
@@ -41,15 +41,16 @@
             center: new kakao.maps.LatLng(37.3468471, 126.9524528),
             level: 3
           };
-      
+          
           var map = new kakao.maps.Map(container, options);
-        </script>
+          </script>
       </div>
     </div>
     
     <div id="footer">
       <p>카테고리 선택 : 한식</p>
     </div>
-
+    
+    <script type="text/javascript" src="../Page/Search_Page.js"></script>
   </body>
 </html>

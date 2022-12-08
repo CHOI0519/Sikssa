@@ -159,9 +159,9 @@ button {
 
 #list{
     padding: 70px;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     /* margin-bottom: ; */
 }
 
@@ -177,4 +177,11 @@ button {
 .name{
     width: 225px;
     height: 100px;
+}
+
+#page_btn{
+    background-color:aliceblue;
+    color: #636262;
+    text-align: center;
+    cursor: pointer;
 }

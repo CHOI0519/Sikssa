@@ -2,8 +2,8 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="/captuer.ico" type="image/x-icon">
-    <link rel="stylesheet" href="layout1.css">
+    <link rel="icon" href="../captuer.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../layout/layout1.css">
     <title>한프로 식사는 하셨고?</title>
 
     
@@ -12,13 +12,13 @@
     <div id="header">
       <div style="display:inline-flex">
         <div>
-          <img src="logo.png" alt="로고" width="200px" height="200px" >     
+          <img src="../logo.png" alt="로고" width="200px" height="200px" >     
         </div>
         <form class="Search">
           <div class="search_box" style="margin:100px;">
             <input type="text" id="txt1" placeholder="메뉴는 정했고?" maxlength="225" onkeydown="enterSearch()">
             <button type="submit"  onclick="gopage()">
-              <img src="png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="80px" height="70px">
+              <img src="../png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="80px" height="70px">
               <script type="text/javascript"></script>
             </button>
           </div>
@@ -119,44 +119,45 @@
     
     <div id="contents">
       <div class="find-bth">
-        <button type="button" class="bth1" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\koreafood.PNG" alt="한식" width="100px" height="100px">
+        <button type="button" class="bth1" onclick=Hansik_Page()>
+          <img src="../food/koreafood.PNG" alt="한식" width="100px" height="100px">
           <p>한식</p>  
+          <script></script>
         </button>
-        <button type="button" class="bth1" onclick="location.href='Hansik_Page1.html'">
-          <img src="food/chinafood.PNG" alt="중식" width="100px" height="100px"> 
+        <button type="button" class="bth1" onclick="location.href='China_Page.html'">
+          <img src="../food/chinafood.PNG" alt="중식" width="100px" height="100px"> 
           <p>중식</p>   
         </button>
-        <button type="button" class="bth1" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\Italyfood.PNG" alt="양식" width="100px" height="100px">  
+        <button type="button" class="bth1" onclick="location.href='Italy_Page.html'">
+          <img src="../food/Italyfood.PNG" alt="양식" width="100px" height="100px">  
           <p>양식</p>  
         </button>
       </div>
       <div class="find-bth">
-        <button type="button" class="bth2" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\Japanfood.PNG" alt="일식" width="100px" height="100px">
+        <button type="button" class="bth2" onclick="location.href='Japan_Page.html'">
+          <img src="../food/Japanfood.PNG" alt="일식" width="100px" height="100px">
           <p>일식</p>  
         </button>
-        <button type="button" class="bth2" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\Tteokbokki.PNG" alt="분식" width="100px" height="100px"> 
+        <button type="button" class="bth2" onclick="location.href='Tteokbokki_Page.html'">
+          <img src="../food/Tteokbokki.PNG" alt="분식" width="100px" height="100px"> 
           <p>분식</p>   
         </button>
-        <button type="button" class="bth2" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\fastfood.PNG" alt="패스트푸드" width="100px" height="100px">  
+        <button type="button" class="bth2" onclick="location.href='Fastfood_Page.html'">
+          <img src="../food/fastfood.PNG" alt="패스트푸드" width="100px" height="100px">  
           <p>패스트푸드</p>  
         </button>
       </div>
       <div class="find-bth">
-        <button type="button" class="bth3" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\steak.PNG" alt="고기" width="100px" height="100px">
+        <button type="button" class="bth3" onclick="location.href='Steak_Page.html'">
+          <img src="../food/steak.PNG" alt="고기" width="100px" height="100px">
           <p>고기</p>  
         </button>
-        <button type="button" class="bth3" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\desert.PNG" alt="디저트" width="100px" height="100px"> 
+        <button type="button" class="bth3" onclick="location.href='Desert_Page.html'">
+          <img src="../food/desert.PNG" alt="디저트" width="100px" height="100px"> 
           <p>디저트</p>   
         </button>
-        <button type="button" class="bth3" onclick="location.href='Hansik_Page1.html'">
-          <img src="food\asiafood.PNG" alt="아시안" width="100px" height="100px">  
+        <button type="button" class="bth3" onclick="location.href='Asia_Page.html'">
+          <img src="../food/asiafood.PNG" alt="아시안" width="100px" height="100px">  
         <p>아시안</p>  
         </button>
       </div>
@@ -167,5 +168,6 @@
       <p>최우성</p>
     </div>
 
+    <script type="text/javascript" src="../Page/Search_Page.js"></script>
   </body>
 </html>
