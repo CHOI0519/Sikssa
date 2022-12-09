@@ -119,10 +119,6 @@ header {
     text-align: center;
 }
 
-h1 {
-    color: #636262;
-    font-size: 12px;
-}
 button {
     border: 0;
     background-color: transparent;
@@ -184,4 +180,23 @@ button {
     color: #636262;
     text-align: center;
     cursor: pointer;
+}
+
+#page_btn:active{
+    background-color: #636262;
+    color: #fff;
+}
+
+.Select_Btn{
+    font-weight: bold;
+    color: darkblue;
+    font-size: large;
+    text-align: right;
+    background-color: #636262;
+    cursor: pointer;
+}
+
+.Select_Btn:active{
+    background-color: darkblue;
+    color: #fff;
 }
