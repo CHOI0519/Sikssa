@@ -661,7 +661,10 @@ const Table = [
   },
 ];
 
+
+
 const list = document.getElementById('list');
+
 
 
 function Hansik_Page() {
@@ -672,8 +675,8 @@ function Hansik_Page() {
       div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
-        <div>
-          <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
+        <div type="button" onclick="panTo()">
+          <img src='${food.url}' alt='${food.name}' width="225px" height="225px">
         </div>
         <div>
           <div style="font-size:18px">이름: ${food.name}</div>
@@ -688,12 +691,17 @@ function Hansik_Page() {
   });
 }
 
+function panTo(){
+  var moveLatLon = new kakao.maps.LatLng(14132457.7308461,4487613.5375064);
+  list.pantTO(moveLatLon); 
+}
+
 function China_Page() {
     list.innerHTML = '';
     const res = Table.forEach(food => {
         if(food.id == "2") {
           let div = document.createElement('div');
-        // div.setAttribute("id","table");
+        div.setAttribute("id","table");
         div.innerHTML = `
         <div style="display:flex">
           <div>

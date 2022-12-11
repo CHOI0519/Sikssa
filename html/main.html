@@ -14,15 +14,23 @@
         <div>
           <img src="../logo.png" alt="로고" width="200px" height="200px" >     
         </div>
-        <form class="Search">
-          <div class="search_box" style="margin:100px;">
-            <input type="text" id="txt1" placeholder="메뉴는 정했고?" maxlength="225" onkeydown="enterSearch()">
-            <button type="submit"  onclick="gopage()">
-              <img src="../png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="80px" height="70px">
-              <script type="text/javascript"></script>
-            </button>
-          </div>
-        </form>
+        <div class="search_box" style="margin:100px;">
+          <input type="text" class="query" id="keyword" name="" value="" placeholder="메뉴는 정했고?" maxlength="225"  >
+          <button class ="searchBtn" onclick=gopage()>
+            <img src="../png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="80px" height="70px">
+            <script>
+              let query = document.querySelector('.query');
+              let searchBtn = document.querySelector('.searchBtn');
+
+
+              function gopage() {
+                  let url = 'https://search.naver.com/search.naver?where=image&sm=tab_jum&query='+query.value;
+                  window.open(url,'_self');
+              }
+            </script>
+          </button>
+        </div>
+        
         <div id="app">
 
           <p style="font-weight:bold;">선택 장애? (앞글자만 따봤어!)</p>
@@ -168,6 +176,5 @@
       <p>최우성</p>
     </div>
 
-    <script type="text/javascript" src="../Page/Search_Page.js"></script>
   </body>
 </html>

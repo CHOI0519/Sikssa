@@ -200,3 +200,7 @@ button {
     background-color: darkblue;
     color: #fff;
 }
+
+#table{
+    cursor: pointer;
+}
