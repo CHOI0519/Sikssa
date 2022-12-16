@@ -439,233 +439,271 @@ const Table = [
     id: 7,
     name: "생고기한마당",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjA2MDJfNjYg/MDAxNjU0MTYyNzMwNjMy.sDQTu7-bt1RK63VXTBsIy_sxZ6-xb7fpWjQzklrgndQg.ICRSp8McDukWA4AUlvzEVcQjWd51QhsSOsJGveAvgXAg.JPEG/upload_f523cbb941a2f992e7d5c6d2ae6e1b85.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/21693316?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/21693316?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh",
   },
   {
     id: 7,
     name: "굴다리 본점",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA4MDhfMjgw%2FMDAxNTk2ODUxNjE4Mzk5.k5K1NG3eXzv68aKCzpm3Q-NOVis1eok7pl_yUjvg2sUg.s8bkjYT7B7x_WyNY1GTqF0iBVbqiByyqIoJDJpGZXSIg.JPEG.kjy4571%2F1596851616814.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1517550331?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1517550331?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh",
   },
   {
     id: 7,
     name: "숯불갈비코스요리 아리랑",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160824_207%2Fpapawolf8_1472003063505gzByO_JPEG%2FattachImage_941026983.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/13389548?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh" 
+    href: "https://map.naver.com/v5/entry/place/13389548?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh",
   },
   {
     id: 7,
     name: "일품맛소",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjEyMDVfMjAy/MDAxNjcwMTk4NzA0MzE2.T-M3zQ932i7SYwftUxvJHa-JvEpQnghiWcRLXfrn87Mg.i1Crw4XcRLnt71PTmbLP7ReG_wXIjniy4zSTkgVg_68g.JPEG/20221204_182501.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1523120938?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1523120938?c=14131273.8143984,4487959.5336800,14.76,0,0,0,dh",
   },
   {
     id: 7,
     name: "무쏘 고기백화점",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjExMTdfMTI4/MDAxNjY4NjYxODYyMTkw.jJZhkcy15S4iki35uUyDkgIsHJ-f_OZUnL-nFtLLKoUg.z1_cpN13zCLkO1_TmLXjJL1zgnw1mkZlPZQ_dKcggtwg.JPEG/IMG_20221117_140721_316.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1035016221?c=14130670.7420719,4488236.6209652,16.24,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1035016221?c=14130670.7420719,4488236.6209652,16.24,0,0,0,dh",
   },
   {
     id: 7,
     name: "원조부안집 군포당정점",
     url: "https://ldb-phinf.pstatic.net/20210617_153/1623912531648GYohA_JPEG/3_72R4eXtMDFTtydzB-aGJG3.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1858001247?c=14132430.9653893,4487694.0796599,16.24,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1858001247?c=14132430.9653893,4487694.0796599,16.24,0,0,0,dh",
   },
   {
     id: 7,
     name: "냉삼댁",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMTZfMTkx%2FMDAxNjY4NjAyOTU4MDQy.R_QUA7v-AQJwhvMBlHpGKYB4keNEjQcAeornvZLAP60g.gJuH72UscXqB-xR2EUhdpcKySwoElswQ80CEjlbrsP4g.JPEG.angel0272%2Foutput_3924076290.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1843381156?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1843381156?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 7,
     name: "돼지몽 한판",
     url: "https://ldb-phinf.pstatic.net/20220919_143/16635738002981059w_JPEG/99335852-C94F-4F67-BC1A-CB075232D146.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/37086015?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/37086015?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 7,
     name: "우가네곱창",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA4MDFfMjI3%2FMDAxNTMzMTExNDQ3NTU3.5JzNy3YifnS6CZF5oYgPOeEbElZtcqBkKTLamaRsnDwg.brxJGC1qG5fcnoTfyEGM-0Mo2IJqOHxe9s22t3y6xDMg.JPEG.chlgkdud453%2F2018-07-30-18-31-03.jpg",
-    button: "더보기" ,
-    href:"https://map.naver.com/v5/entry/place/19269264?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/19269264?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 7,
     name: "누이네곱창",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MTBfNjIg%2FMDAxNjIzMjk5NzAwMzU0.3XHNVkr3vhnS-I7nnEK_IPCWDUWENQg-8ZTxpQjNz24g.W_41AjANpZvD0oRuye5ipCm32fRc8TMV6IqaV4MP90gg.JPEG.chlgkdud453%2F1623299419756.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/31167212?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/31167212?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 7,
     name: "불꽃돼지",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMzBfMjUw%2FMDAxNjE3MTEwMzM3NTUy.zhFYDiU96VhjFbfRUa0b4knqw1_eC4rgvOUjRYwExTwg.OKuvjk3NWJZ7UbqBmpv-rK_0jlVgwKCZq1klTw2yY1Qg.JPEG.pppnnp%2FIMG_9293.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/31650601?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/31650601?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 7,
     name: "군포갈비",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA2MTZfMTQ4%2FMDAxNjIzODEwNTg0NjU2.ySLb8--lVYT3WvBogUktMgjWmt5aXhY14Zo7U9APE2og.MwGMeorLqOEMmT-ECrpYiIBZO0sDgXc558TSNQ2Ks2wg.JPEG.ljsojsljs%2F20210614%25A3%25DF160836.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1095483131?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1095483131?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "커피랑도서관 군포당정역점",
     url: "https://myplace-phinf.pstatic.net/20201220_277/1608441886922386A9_JPEG/upload_1276e13db6220424720014f3e260afca.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1375875738?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1375875738?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "핑크쿠키랩",
     url: "https://ldb-phinf.pstatic.net/20220610_183/1654840824256lw25N_JPEG/2147C6F9-3367-46DB-9F04-356962CEBFF7.jpeg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1018605915?c=14132152.5747357,4487636.1832526,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1018605915?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "카페이공",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjEwMTVfOTYg/MDAxNjY1ODAzMjI3MDQx.Ewm4kZZpCedIfae9UX3DwkIEqYKhkJQULZCBjWCYA2Ug.KHpWcCEjDYrjIaf1Erw9DuyVJx_BNkBlpWXE1QVejAgg.JPEG/E6B62F37-F4FD-4D9B-AB1A-836C726C8895.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1089395462?c=14132152.5747357,4487636.1832526,15,0,0,0,dh" 
+    href: "https://map.naver.com/v5/entry/place/1089395462?c=14132152.5747357,4487636.1832526,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "데이롱카페 당정역점",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMjFfNDAg%2FMDAxNjQwMDc5OTIwNTIx.f1ebDoMTpTjwIMRubCBLZ0Tf1GOZCchxT-Zh6uemAiAg.hk1c0BZAHt978SIp1ew4QvdOSzsJS3SI96AOBAuh7eMg.JPEG.ajssd%2FIMG_3984.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1312486811?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1312486811?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "카페 린",
     url: "https://myplace-phinf.pstatic.net/20220303_106/1646265975972UimtE_JPEG/upload_738336f138ddda74758739265d0495ba.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1135748790?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1135748790?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "26.4",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjExMjRfNSAg%2FMDAxNjY5Mjc1NjQxNzY0.didkzuX-5HQ69U7XB53Ze2KL7dpGja1tZSwRH5M6rPkg.DzclVKkIRVZ__m22nEMxKMk8pAYiFU30xR2MN8R6A_og.JPEG.redstar102%2Foutput_3420953974.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1205801073?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1205801073?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "arr.",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjA3MjZfMjM1/MDAxNjU4ODA4Njc4MzU0.rKjczo-75PH-Z6OgF6GHnOaM-lxj58EpMbsNG5JLmHEg.bj2r7JyoeYZmMYloszqSVzTUwIwvi9DxxBB-IjJQk-8g.JPEG/upload_f8dd1fa9a771db346c78111495dba8b8.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1353404566?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1353404566?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "하이오커피 군포당정점",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MjZfMjcx%2FMDAxNjU4ODIzMjAyOTQy.-6c6obl5qKAZSY9-Bllh3dTvWQdlIYP87Xqau7nIMLYg.86lEiCs5j2KIubVr-gz6qa7z3DtCHVO4PzBFxaP2BdUg.JPEG.princess_bee%2FIMG_4260.JPG",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1908372564?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1908372564?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "카페하라",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTExMzBfMjU1%2FMDAxNjM4MjgwNzE5NzM1.qdl6QugFifMTg66-jycViMdnJ6b6Qw3Rm7lyrtBoDKIg.ijkNGMCMNgC4tt6ywowXr33Xi-XOYQm4N4IZToWXbB0g.JPEG.woosoojs%2F1638280264714.jpg",
-    button: "더보기" ,
-    href:"https://map.naver.com/v5/entry/place/35306931?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/35306931?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "요거프레소 한세대점",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjA2MDdfMTM0/MDAxNjU0NjAwNzk1NDgx.ENR9-KVHOuWJLFQl8iHpTUeBsNVp1XAUBlWr1ZQXALwg.jawH_T1E3-qzWAzHzK_zEfee1hi9v5YQ0rmD3PG5ngAg.JPEG/upload_dc79720def66da4e95884d4f970a4720.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/36886430?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/36886430?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "커피인더스트리 1호점",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjA3MTBfMjUg/MDAxNjU3NDA4NDcxOTg4.3CHSElmoKHuXCwGaS1o76i4lPowkeIT5Ke_L-Jd6ZZ8g.QTQi0HMYsqVtYheB39wHYmcrPM1nz623wW1nycSaFhkg.JPEG/upload_396b4d80881f2223307e3c4d10983377.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/19742226?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/19742226?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 8,
     name: "로스팅아라비카",
     url: "https://ldb-phinf.pstatic.net/20201008_248/1602151146827ybXGe_JPEG/QHq0Oteif8nqZDP1qSW1LnU3.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1361548343?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1361548343?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "미스사이공",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MDhfMjQ4%2FMDAxNTk0MTg5MTM4MDMw.IHi4hs6ttNh6nmrdqi-agyl9JY0MsoLzOD9O3C_4bYIg.4BTEb1iYKsXEhndnGcSf9gCz_4hi2heJr_wULB9RKWMg.JPEG.chlgkdud453%2F1594189136672.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1349454981?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1349454981?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "쉔통",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MTlfNjUg%2FMDAxNjYzNTE3NzI2MDM2.tVFQO5iSGS73w0SYN4HfJV1kyF5VaK9qjIIFzdcjgK4g.j6zOxNdOpyHHJUb48olq0JATfbmiyO9mNVk_739-2LYg.JPEG.qeteeee%2F20220829%25A3%25DF120840.jpg",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/1647955701?c=14131664.7393305,4487149.7183563,15,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/1647955701?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "벤탄빌라 군포당동점",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMjFfMTk5%2FMDAxNjM0Nzk5ODA0Nzgz.MoFkIr0Do0xVGkYU89SAtZ30p6LT0J9pPDMNe7IVewog.OnLJVQN-84NL4EEC87uJ0zYnFnuqN4Bm5en2Our71WAg.JPEG.uxxdenim%2FIMG_4482.JPG",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1349082393?c=14131664.7393305,4487149.7183563,15,0,0,0,dh" 
+    href: "https://map.naver.com/v5/entry/place/1349082393?c=14131664.7393305,4487149.7183563,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "강원도막국수",
     url: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAzMTlfMjQy%2FMDAxNDg5ODg1NzIwOTMy.pDn21ye5pw2vlhiznDHO1T4WE_J8SEdrTG8PsQvAWE4g.mqSFkEuxR2HmBPzJ46AdNGYX5d8yrJVfhafyk0n4AgIg.JPEG.kimey486%2FIMG_2818.JPG",
-    button: "더보기", 
-    href:"https://map.naver.com/v5/entry/place/18988242?c=14132465.4512771,4487591.1151953,17.2,0,0,0,dh"
+    button: "더보기",
+    href: "https://map.naver.com/v5/entry/place/18988242?c=14132465.4512771,4487591.1151953,17.2,0,0,0,dh",
   },
   {
     id: 9,
     name: "사이공쌀국수 군포역점",
     url: "https://myplace-phinf.pstatic.net/20211128_10/1638102966976eykdt_JPEG/upload_f5cc7f6059a48030415fbdb41a7922ad.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1413701467?c=14131113.2715666,4488086.7774440,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1413701467?c=14131113.2715666,4488086.7774440,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "포비엣콴",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjEyMDNfMTcx/MDAxNjY5OTk0MzQ0MjQ3.0ZEG8Lp5LjsdfKcFxsKA5_eVNpxusfXqttoP2dx3T2cg.94DpiuX2Mwoyyf5rxGhzaRFrBDcR6jr8EV269pHDxTAg.JPEG/20221202_120046.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1763465599?c=14131113.2715666,4488086.7774440,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1763465599?c=14131113.2715666,4488086.7774440,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "베트남쌀국수",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjEwMTFfMTY5/MDAxNjY1NDgyMzg2ODY3.3A-NSiYnJ4XjYVa_5vYoi80qzxiHOE_op2fOll4ks1Yg.g0oUmlG6MbATzPqPeGtK30DOJxFUWrd3sHnZkzM2hfQg.JPEG/20221011_174241.jpg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1235886233?c=14131113.2715666,4488086.7774440,15,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1235886233?c=14131113.2715666,4488086.7774440,15,0,0,0,dh",
   },
   {
     id: 9,
     name: "포베이 군포점",
     url: "https://pup-review-phinf.pstatic.net/MjAyMjEwMjRfMTQx/MDAxNjY2NjE2MDcwOTIz.H0pLW-AlYTrj0GihF6oh0zn0KxSyeNzKlliG5MAngfIg.QysYHJNR116SB_rZZb4e9OtmpR25nDKQrSULgM4MM9Eg.JPEG/AB663F90-6094-4AB8-9C80-B561D35500CD.jpeg",
     button: "더보기",
-    href:"https://map.naver.com/v5/entry/place/1146261579?c=14132059.9895865,4488401.3075718,15.27,0,0,0,dh"
+    href: "https://map.naver.com/v5/entry/place/1146261579?c=14132059.9895865,4488401.3075718,15.27,0,0,0,dh",
   },
 ];
 
+const list = document.getElementById("list");
 
+function gopage() {
+  const food = document.querySelector("#search_box");
+  const food_one = food.querySelector("input");
+  let menu = food_one.value;
+  let menu_food = food_one.value;
+  localStorage.setItem(menu, menu_food);
 
-const list = document.getElementById('list');
+  location.href = "../html/Search_Page.html";
 
+  if (localStorage.getItem("menu")) {
+    var value = localStorage.getItem("menu");
+  };
 
+  // function Search_Page() {
+    // const list = document.getElementById("list");
+    const food_list = value;
+    list.innerHTML = "";
+    const res = Table.forEach((foods) => {
+      if (foods.name.includes(food_list)) {
+        let div = document.createElement("div");
+        div.setAttribute("id", "table");
+        div.innerHTML = `
+        <div style="display:flex">
+          <div>
+            <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
+          </div>
+          <div>
+            <div style="font-size:18px">이름: ${food.name}</div>
+            <div id=page_btn type=button style="font-size:15px" onclick=location.href='${food.href}'>
+              ${food.button}
+            </div>
+          </div>
+        </div>
+            `;
+        list.appendChild(div);
+      }
+    });
+  }
+  
+//   Search_Page();
+// }
 
 function Hansik_Page() {
   list.innerHTML = "";
@@ -691,18 +729,18 @@ function Hansik_Page() {
   });
 }
 
-function panTo(){
-  var moveLatLon = new kakao.maps.LatLng(14132457.7308461,4487613.5375064);
-  list.pantTO(moveLatLon); 
+function panTo() {
+  var moveLatLon = new kakao.maps.LatLng(14132457.7308461, 4487613.5375064);
+  list.pantTO(moveLatLon);
 }
 
 function China_Page() {
-    list.innerHTML = '';
-    const res = Table.forEach(food => {
-        if(food.id == "2") {
-          let div = document.createElement('div');
-        div.setAttribute("id","table");
-        div.innerHTML = `
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == "2") {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
+      div.innerHTML = `
         <div style="display:flex">
           <div>
             <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
@@ -715,17 +753,17 @@ function China_Page() {
           </div>
         </div>
             `;
-            list.appendChild(div);
-        }
-      })
+      list.appendChild(div);
+    }
+  });
 }
 
 function Italy_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 3) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 3) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -739,17 +777,17 @@ function Italy_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
 
 function Japan_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 4) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 4) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -763,17 +801,17 @@ function Japan_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
 
 function Tteokbokki_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 5) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 5) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -787,18 +825,17 @@ function Tteokbokki_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
 
-
 function Fastfood_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 6) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 6) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -812,17 +849,17 @@ function Fastfood_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
 
 function Steak_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 7) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 7) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -836,18 +873,17 @@ function Steak_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
-
 
 function Desert_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 8) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 8) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -861,18 +897,17 @@ function Desert_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
-
 
 function Asia_Page() {
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-      if(food.id == 9) {
-        let div = document.createElement('div');
-      div.setAttribute("id","table");
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.id == 9) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
       div.innerHTML = `
       <div style="display:flex">
         <div>
@@ -886,21 +921,19 @@ function Asia_Page() {
         </div>
       </div>
           `;
-          list.appendChild(div);
-      }
-    })
+      list.appendChild(div);
+    }
+  });
 }
 
-
-
-function showList(val='') {
+function showList(val = "") {
   // var Table = JSON.parse(table);
-  list.innerHTML = '';
-  const res = Table.forEach(food => {
-    if(food.name.includes(val)) {
-      let div = document.createElement('div');
-    // div.setAttribute("id","table");
-    div.innerHTML = `
+  list.innerHTML = "";
+  const res = Table.forEach((food) => {
+    if (food.name.includes(val)) {
+      let div = document.createElement("div");
+      div.setAttribute("id", "table");
+      div.innerHTML = `
     <div style="display:flex">
       <div>
         <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
@@ -913,20 +946,17 @@ function showList(val='') {
       </div>
     </div>
         `;
-        list.appendChild(div);
+      list.appendChild(div);
     }
-  }) //end showlist
+  }); //end showlist
 }
 
-
-
-
-//검색기능 
-const searchInput = document.getElementById('search');
-const searchBtn = document.getElementById('searchBtn');
+//검색기능
+const searchInput = document.getElementById("search");
+const searchBtn = document.getElementById("searchBtn");
 
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const val = searchInput.value;
   showList(val);
-}); 
+});

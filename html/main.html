@@ -14,11 +14,12 @@
         <div>
           <img src="../logo.png" alt="로고" width="200px" height="200px" >     
         </div>
-        <div class="search_box" style="margin:100px;">
+        <div class="search_box" id="search_box" style="margin:100px;">
           <input type="text" class="query" id="keyword" name="" value="" placeholder="메뉴는 정했고?" maxlength="225"  >
-          <button class ="searchBtn" onclick=gopage()>
+          <button type="submit" class="searchBtn" onclick=gopage()>
             <img src="../png-transparent-magnifying-glass-computer-icons-magnifying-glass-glass-art-symbol.png" alt="검색" width="80px" height="70px">
-            <script>
+            <script type="text/javascript" src="../Page/Search_Page.js" ></script>
+            <!-- <script>
               let query = document.querySelector('.query');
               let searchBtn = document.querySelector('.searchBtn');
 
@@ -27,7 +28,7 @@
                   let url = 'https://search.naver.com/search.naver?where=image&sm=tab_jum&query='+query.value;
                   window.open(url,'_self');
               }
-            </script>
+            </script> -->
           </button>
         </div>
         
@@ -56,7 +57,7 @@
           
         <button class="play-btn" v-on:click="play">눌러봐</button>
       
-      
+        <script type="text/javaseript" src="../Page/roulette.js"></script>
         <script src="https://unpkg.com/vue@next"></script>
         <script>
             Vue.createApp({
