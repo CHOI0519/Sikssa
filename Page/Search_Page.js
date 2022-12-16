@@ -663,44 +663,45 @@ const Table = [
 
 const list = document.getElementById("list");
 
-function gopage() {
-  const food = document.querySelector("#search_box");
-  const food_one = food.querySelector("input");
-  let menu = food_one.value;
-  let menu_food = food_one.value;
-  localStorage.setItem(menu, menu_food);
+// 메인 페이지 검색 했을 시 새 페이지 이동 후 검색 값 추출하는 코드 실햄 함수 -> 실패
+// function gopage() {
+//   const food = document.querySelector("#search_box");
+//   const food_one = food.querySelector("input");
+//   let menu = food_one.value;
+//   let menu_food = food_one.value;
+//   localStorage.setItem(menu, menu_food);
 
-  location.href = "../html/Search_Page.html";
+//   location.href = "../html/Search_Page.html";
 
-  if (localStorage.getItem("menu")) {
-    var value = localStorage.getItem("menu");
-  };
+//   if (localStorage.getItem("menu")) {
+//     var value = localStorage.getItem("menu");
+//   };
 
-  // function Search_Page() {
-    // const list = document.getElementById("list");
-    const food_list = value;
-    list.innerHTML = "";
-    const res = Table.forEach((foods) => {
-      if (foods.name.includes(food_list)) {
-        let div = document.createElement("div");
-        div.setAttribute("id", "table");
-        div.innerHTML = `
-        <div style="display:flex">
-          <div>
-            <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
-          </div>
-          <div>
-            <div style="font-size:18px">이름: ${food.name}</div>
-            <div id=page_btn type=button style="font-size:15px" onclick=location.href='${food.href}'>
-              ${food.button}
-            </div>
-          </div>
-        </div>
-            `;
-        list.appendChild(div);
-      }
-    });
-  }
+//   // function Search_Page() {
+//     // const list = document.getElementById("list");
+//     const food_list = value;
+//     list.innerHTML = "";
+//     const res = Table.forEach((foods) => {
+//       if (foods.name.includes(food_list)) {
+//         let div = document.createElement("div");
+//         div.setAttribute("id", "table");
+//         div.innerHTML = `
+//         <div style="display:flex">
+//           <div>
+//             <img src='${food.url}' alt='${food.name}' width="225px" height="225px" >
+//           </div>
+//           <div>
+//             <div style="font-size:18px">이름: ${food.name}</div>
+//             <div id=page_btn type=button style="font-size:15px" onclick=location.href='${food.href}'>
+//               ${food.button}
+//             </div>
+//           </div>
+//         </div>
+//             `;
+//         list.appendChild(div);
+//       }
+//     });
+//   }
   
 //   Search_Page();
 // }
