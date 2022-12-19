@@ -47,59 +47,48 @@
       <script>
         var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
           mapOption = {
-            center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+            center: new kakao.maps.LatLng(37.3468471, 126.9524528), // 지도의 중심좌표
             level: 3 // 지도의 확대 레벨
           };
 
         var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
-        function setCenter() {
-          // 이동할 위도 경도 위치를 생성합니다 
-          var moveLatLon = new kakao.maps.LatLng(33.452613, 126.570888);
 
-          // 지도 중심을 이동 시킵니다
-          map.setCenter(moveLatLon);
-        }
+        // function panTo() {
+        //   const kategorie = Table.forEach((food) => {
+        //     if (food.id == 1) {
+        //       var moveLatLon = new kakao.maps.LatLng("37.3473284, 126.9553298");
+        //       map.panTo(moveLatLon);
+        //     };
+        //   });
+        // }
 
-        function panTo() {
-          const kategorie = [
-            "33.452613, 126.570888",
-            "37.354006, 126.948539",
-            "37.320648, 126.948099",
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895",        
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895",
-            "37.372237, 126.9434895"
-          ];
-          
-          // const kategorieLenght = kategorie.length;
 
-          // 이동할 위도 경도 위치를 생성합니다 
-          for (const value of kategorie) {
-            // var moveLatLon = new kakao.maps.LatLng(kategorie[i]);
-            console.log(kategorie[i]);
-            // i += 1
-            // 지도 중심을 부드럽게 이동시킵니다
-            // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
-            // map.panTo(moveLatLon);
-          };
-        }
+        //   // const kategorieLenght = kategorie.length;
+        //   if (alt == food.name) {
+
+        //     // 이동할 위도 경도 위치를 생성합니다 
+        //     // for (const value of kategorie) {
+        //     var moveLatLon = new kakao.maps.LatLng(Table.location);
+        //     // console.log(kategorie[i]);
+        //     // i += 1
+        //     // 지도 중심을 부드럽게 이동시킵니다
+        //     // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+        //     map.panTo(moveLatLon);
+        //   };
+        // };
 
         // 마커가 표시될 위치입니다 
-        var markerPosition = new kakao.maps.LatLng(37.3510118, 126.9552096);
+        var markerPosition = new kakao.maps.LatLng(33.452613, 126.570888);
 
-        // 마커를 생성합니다
-        var marker = new kakao.maps.Marker({
-          position: markerPosition
-        });
+        // // 마커를 생성합니다
+        // var marker = new kakao.maps.Marker({
+        //   position: markerPosition
+        // });
 
-        // 마커가 지도 위에 표시되도록 설정합니다
-        marker.setMap(map);
+        // // 마커가 지도 위에 표시되도록 설정합니다
+        // marker.setMap(map);
+
       </script>
     </div>
   </div>
